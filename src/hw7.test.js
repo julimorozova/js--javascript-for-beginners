@@ -20,13 +20,13 @@ describe("hw-7", () => {
 
     it("check that btn doesn't contain the attribute hidden", () => {
       input.value = "Hello";
-      input.dispatchEvent(new Event("focus"));
+      input.dispatchEvent(new Event("input"));
       expect(btn.hasAttribute("hidden")).toBe(false);
     });
 
     it("check that btn contains the attribute hidden", () => {
       input.value = "";
-      input.dispatchEvent(new Event("focus"));
+      input.dispatchEvent(new Event("input"));
       expect(btn.hasAttribute("hidden")).toBe(true);
     });
 

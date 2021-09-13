@@ -3,7 +3,7 @@ export function addEventListeners() {
   const input = document.querySelector(".input");
   const btn = document.querySelector(".btn");
 
-  input.addEventListener("focus", () => {
+  input.addEventListener("input", () => {
     if (input.value.length > 0) {
       btn.removeAttribute("hidden");
     } else {
