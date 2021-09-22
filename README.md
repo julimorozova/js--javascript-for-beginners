@@ -7,7 +7,9 @@
 ![prettier](https://img.shields.io/badge/-prettier-4b4a49?style=for-the-badge&logo=prettier)
 ![npm](https://img.shields.io/badge/-npm-4b4a49?style=for-the-badge&logo=npm)
 
-Чтобы посмотреть результаты тестов скачайте локально репозиторий и запустите:
+<p>Исходный код, тесты и описание задач вы найдете в папке src/</p>
+
+<p>Чтобы посмотреть результаты тестов скачайте локально репозиторий и запустите:</p>
 
 `npm install`
 
